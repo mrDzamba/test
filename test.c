@@ -1,6 +1,8 @@
 // this is test file
 #include "stdio.h"
 #include "math.h"
+#include "string.h"
+
 void int main(int argc, char const *argv[]) {
   /* code */
   int i = 0;
