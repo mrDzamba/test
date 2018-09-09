@@ -13,5 +13,10 @@ void int main(int argc, char const *argv[]) {
   for(i = 0; i < strlen(array); i++){
     printf("i = %d letter = %c\n", i, aray[i]);
   }
+  printf("newNumber = %d", testFunction(5));
   return 0;
+}
+
+int testFunction(int number){
+  return number ^ number + 5;  
 }
